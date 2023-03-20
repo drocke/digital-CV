@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+
+        <meta name= “viewport” content= “width=device-width, initial-scale= “1.0”>
+
+        <style>
+           
+            .header {border-style: solid;
+            display: flex;
+            font-size: xx-large;
+            padding-bottom: 25px;
+            padding-top: 25px;
+            padding-left: 70px;
+            background-color: #f7b6d0;
+            font-weight: bold;
+            border-color:white;
+            font-family: 'Josefin Sans', sans-serif;}
+            .title{border-style: dotted;
+            padding-left: 725px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            border-color:white;font-family: 'Josefin Sans', sans-serif;}
+            .personal{display: flex; background-color:#f7ddb6; flex-direction: row;}
+            p{padding-left: 50px;padding-right: 50px; padding-top: 25px;}
+            .museum{border-style:solid; border-color:white;
+            border-width:5px;flex:1; margin-left:75px;
+            margin-right: 75px;margin-top:10px; 
+            margin-top:10px; margin-bottom:10px;position: relative;}
+            body{background-color: rgb(219, 227, 250)}
+            .travel{border-style: solid;
+                flex:1;
+                border-color:white;
+                border-width: 5px;
+                gap:5px;
+                margin-left: 45px;
+                margin-top:10px;
+                margin-bottom:10px;
+                position: relative;}
+            .maui{border-style: solid;
+            flex:1;border-color:white;
+            border-width: 5px;
+            gap:5px;
+            margin-top:10px;
+            margin-right:45px;
+            margin-top:10px;
+            margin-bottom:10px;
+            position: relative;
+            }
+            
+            ul{
+                list-style-type: none;
+                display:inline-block;
+                padding: 0px;
+                margin:0px;
+            }
+            li a{
+                width:100px;
+                background-color:#f7b6d0;
+                color: black;
+                padding-top:20px;
+                padding-bottom:20px;
+                display:block;
+                text-align:center;
+                text-decoration:none;
+                border-style:solid;
+                border-color:white;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+            li a:hover{
+                background-color: #f7ddb6;
+            }
+            li a.active{background-color: #f7b6d0;}
+            li {
+                float:left;
+            }
+            .nav{position:absolute;
+                right:20px;
+                top:20px;}
+
+            .contact{font-family: 'Josefin Sans', sans-serif; 
+            padding-left: 650px;
+            background-color: rgb(219, 227, 250);}
+            .tower{position:absolute;
+            background-color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom:5px;
+            top:0px;
+            font-size: large;}
+            .beach{position:absolute;
+            background-color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom:5px;
+            top:0px;
+            font-size: large;}
+            .clock{position:absolute;
+            background-color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom:5px;
+            top:0px;
+            font-size: large;}
+
+        </style>
+        <title>Devon Rocke</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="nav">
+        <ul> 
+            <li><a href="page 1.html">About</a></li>
+            <li><a href="page 2.html">Personal</a></li>
+            <li><a class="active" href="page 3.html">Travels</a></li>
+        </ul>
+        </div>
+        <div class="header"> About Devon Rocke
+        <img src="android-chrome-192x192.png" style="position:absolute; 
+        left: 20px; top:30px;" height="40px">
+        </div>
+        <div class="hello">
+            <h2 class="title">Travels</h2>
+        </div>
+        <div class="personal">
+            <div class="travel">
+                <img src="eiffel.jpeg" height="575">
+                <div class="tower">The Eiffel Tower</div>
+            </div>
+            <div class="museum">
+                <img src="musee.jpg" height="575">
+                <div class="clock">Musée d'Orsay</div>
+                </div>
+        
+            <div class="maui">
+                <img src="maui sunset.jpeg" height="575">
+                <div class="beach">Maui</div>
+            </div>
+            
+        </div>
+        <div class="contact">
+            <h3>Contact me at drocke@elon.edu !</h3>
+        </div>
+    </body>
+</html>
